@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Login Form</title>
+</head>
+
+<body>
+
+<div  style="border: 1px solid black; width: 300px; padding:30px; height:150px; margin-top: 150px; margin-left: 400px">
+<form name="myForm" action="js/source/face.html" onsubmit="return validateForm()" method="post">
+Username: <input type="text" name="uname"><br/><br/>
+Password: <input type="password" name="pwd"><br/><br/>
+<input type="submit" value="Submit">
+</form>
+</div>
+
+<p style="font-size: 13px">Default Username: abc | Default Password: 123</p>
+
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["uname"].value;
+    var y = document.forms["myForm"]["pwd"].value;
+    if (x != "abc" || y !="123") {
+        alert("Incorrect Username-Password combination!");
+        return false;
+    }
+  
+}
+</script>
+
+</body>
+</html>
