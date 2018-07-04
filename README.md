@@ -7,6 +7,7 @@ location and extent of each face. While this appears to be a trivial task for hu
 it is a very challenging task for computers. We use the Viola and Jones face detection
 algorithm as it is the best possible face detection algorithm with a very high detection
 rate.
-
 Along with the face detection, we are also calculating the distance of the face in
 proportion to the frame, figuring out if the face is too far away or too close.
+
+Here is the link to the project report: https://drive.google.com/open?id=1LDemfUpIhXs3m1WNeiWn5gA6kQx40yj5
